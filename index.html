@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes</title>
+    <script type='module' src="./scripts/index.js" defer></script>
+    <link rel='stylesheet' type="text/css" href='./css/index.css' /> <!-- css externos usar o link-->
+</head>
+<body>
+    <header id="cabec">
+        <div id="titulo">Site de animes foda</div>
+    </header>
+
+    <div id="corpo">
+
+        <div class="animesreq">
+
+
+            <div class="anime-box">
+                <h1 class='anime-title'>titulo do anime</h1>
+                <div class="anime-image-box">
+                    <img class='anime-image' src="./img/lupa.png" alt="">
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="animesweek">
+            <div>
+                <form class='busca-box' action="">
+                    <input class='busca-texto' type="text" name='busca' placeholder='busca'>
+                    <input class='busca-butao' type='image' name='enviar' src='./img/lupa.png'>
+                </form>      
+            </div>
+            <ul style="list-style-type:none">
+                <li id='topa' class="item-list botao-genero">Top Animes</li>
+                <li id='topm' class="item-list botao-genero">Top Mangas</li>
+                <li id='season' class="item-list botao-genero">Animes da temporada</li>
+                <h1 class = "item-list" style='margin-left: .5em'>Gêneros</h1>
+                <li id='action' class="item-list botao-genero" name='acao'>Ação</li>
+                <li id='adventure' class="item-list botao-genero">Aventura</li>
+                <li id='comedy' class="item-list botao-genero">comedia</li>
+                <li id='drama' class="item-list botao-genero">Drama</li>
+                <li id='fantasy' class="item-list botao-genero">Fantasia</li>
+                <li id='sifi' class="item-list botao-genero">Si-fi</li>
+                <li id='sport' class="item-list botao-genero">Sport</li>
+            </ul>
+        </div>
+    </div>
+    <div id="rodape">
+
+    </div>
+</body>
+</html>
