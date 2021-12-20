@@ -18,7 +18,7 @@ header{
     height:100px;
     background-color:#1e1e1e;
 }
-#titulo{
+.titulo{
     color: white;
     font-size: 30px;
     margin: auto;
@@ -42,24 +42,34 @@ header{
 #corpo{
     margin:4px;
     padding:6px;
-    width:99%;
+    width:100vw;
     height:auto;
     display:flex;
-    align-items: stretch;
+    flex-direction: column;
 }
 
 .animesreq{
     margin-top: 14px;
     padding:12px;
     background-color: #1e1e1e;
-    width: 70%;
+    width: 68vw;
     height: auto;
+    border-radius: 5px;
+
     display:flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    border-radius: 5px;
 }
-
+.pagina-skip{
+    height:30px;
+    width: 68vw;
+    padding:12px;
+    padding-top:6px;
+    background-color:#1e1e1e;
+    border-radius: 5px;
+    display:flex;
+    justify-content:space-evenly;
+}
 .anime-box{
     width: 10em;
     height:18em;
@@ -121,5 +131,25 @@ header{
     transition: transform .3 ease-out;
 }
 .botao-genero:hover{
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
+
+.pagina{
+    padding-top: 8px;
+    color: white;
+    width:45px;
+    height:35px;
+}
+.botoes{
+    width:35px;
+    height:35px;
+    background-color:white;
+    opacity: .3;
+    transition: transform .2s ease-in-out;
+}
+.botoes:hover{
+    cursor: pointer;
+    transform: scale(1.2)
+}
+

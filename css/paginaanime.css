@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+body{
+    background-color: #123247;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    padding: 0px;
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    height:100px;
+    background-color:#1e1e1e;
+}
+.titulo{
+    color: white;
+    font-size: 30px;
+    margin: auto;
+}
