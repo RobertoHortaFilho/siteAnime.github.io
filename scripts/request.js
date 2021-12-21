@@ -6,6 +6,7 @@ export function requestA(name){
     document.querySelector('.animesreq').innerHTML = ""
     fetch(link+name).then( response => {
         response.json().then( data =>{
+            console.log(data)
             //console.log(data);
             data.results.forEach(element => {
                 //criando os htmls
@@ -37,6 +38,7 @@ export function requestTop(link2,num){
     }
     fetch(link2).then( response => {
         response.json().then( data => {
+            console.log(data)
             document.querySelector('.animesreq').innerHTML = ""
                 //console.log(data)
                 let animes

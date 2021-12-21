@@ -22,4 +22,27 @@ header{
     color: white;
     font-size: 30px;
     margin: auto;
+    text-decoration: none;
+}
+
+.corpo{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    background-color: #1e1e1e;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+.error{
+    color: white;
+    width: 100%;
+    text-align:center;
+    padding: 3em 0em;
+    font-size: 2em;
+}
+
+.error a{
+    font-size: 1em;
+    text-decoration: none;
 }
