@@ -1,10 +1,10 @@
 
-export function addAnime(namee, imgg){
+export function addAnime(namee, imgg, id_anime){
     let caixa_anime = document.querySelector('.animesreq')
 
     let quadro_anime = document.createElement('a')
     quadro_anime.classList.add('anime-box')
-    quadro_anime.href = "./paginaanime.html"
+    quadro_anime.href = `paginaanime.html?idanime=${id_anime}`
     quadro_anime.style.textDecoration = 'none'
 
     let nome_anime = document.createElement('h1')
