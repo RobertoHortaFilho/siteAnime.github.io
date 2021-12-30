@@ -28,10 +28,13 @@ header{
 .corpo{
     width: 95%;
     margin: auto;
-    height: 100vh;
+    height: auto;
     background-color: #1e1e1e;
     margin-top: 2em;
     border-radius: 10px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .error{
@@ -45,4 +48,185 @@ header{
 .error a{
     font-size: 1em;
     text-decoration: none;
+}
+
+.cabecalho{
+    
+    width: 90%;
+    height: auto;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    padding:1em;
+    border-radius: 10px;
+}
+.foto-anime{
+    width:250px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.foto-anime img{
+    width: 98%;
+    height: 98%;
+}
+.descricao-box{
+    width: 80%;
+    margin-left: 1em;
+    flex-shrink: 1;
+
+}
+.titulo-anime{
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.descricao{
+    width: 100%;
+}
+
+.conteudo{
+    width: 90%;
+    height: auto;
+    background-color:white;
+    margin: auto;
+    margin-top:1em;
+    padding:1em;
+    border-radius: 10px;
+}
+.dubladores{
+    border: 1px solid red;
+    width: 100%;
+    height:auto;
+    margin-bottom: 1em;
+}
+
+.carrosel-dublador{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    position:relative;
+
+    
+}
+.dublador{
+    background-color: rgba(0,0,0,.1);
+    border-radius: 4px;
+    padding:.2em;
+    margin:.1em;
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.dublador img{
+    width:50px;
+    margin-right: 1em;
+}
+
+.butoes-carrosel{
+    position:absolute;
+    left:0;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+.button-fx{
+    background-color:rgba(0,0,0,.3);
+    width:2em;
+    height:2em;
+    margin:auto;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: transform .1s ease-in, background-color .3s ease-in;
+}
+
+.front-carrosel{
+    margin:auto;
+    margin-right: 10px;
+
+}
+
+.button-fx:hover{
+    background-color:rgba(0,0,0,.6);
+    transform: scale(1.2);
+}
+
+.detalhes{
+    background-color:salmon;
+    width: 100%;
+    height: auto;
+    display:flex;
+}
+.eps{
+    margin:1em;
+    width:40%;
+    padding:1.5em;
+    background-color:sienna
+}
+
+.lista-eps{
+
+}
+.ops{
+    flex-grow: 1;
+    margin:1em;
+    width:40%;
+    background-color:seagreen;
+    height:15em;
+}
+
+.trailer{
+    margin-top:1em;
+    background-color: silver;
+    height:20em;
+}
+
+.recomendacoes{
+    margin-top:1em;
+    width:100%;
+    height:auto;
+
+}
+
+.rec-box{
+    display:flex;
+    background-color:slateblue;
+    width:100%;
+    height:auto;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rec-container{
+    width:15em;
+    height:6em;
+    border: 1px solid violet;
+    margin:1em;
+    display:flex;
+    align-items: center;
+}
+
+.rec-img{
+    width:5em;
+    margin:auto;
+    margin-left: .5em;
+    margin-right: .5em;
+
+}
+.rec-img img{
+    width:100%;
+}
+.rec-nome{
+    font-size: .9em;
+    height:auto;
+    width: 10em;
+}
+.rodape{
+    background-color: tomato;
+    margin-top: 5em;
+    padding-left: 50%;
+    
 }

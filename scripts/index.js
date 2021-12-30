@@ -1,7 +1,6 @@
 import { requestA, requestTop} from './request.js'
 import { addAnime } from './add-anime.js'
 
-//esse codigo foi enviado pelo git
 //Variaveis de controle
 var busca = {
     Lastlink: "",
